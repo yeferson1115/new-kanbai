@@ -1,3 +1,450 @@
+/* Importación de la fuente según la especificación de Figma */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+
+:root {
+  --neutral-100: #0e0d35;
+  --neutral-90: #39404f;
+  --neutral-20: #cfd1d3;
+  --brand-violet-950: #26035d;
+  --brand-blue-500: #4e56d4;
+  --brand-blue-600: #3a41b2;
+  --background-lavanda-nube: #fefdff;
+}
+
+.frame-1000004992,
+.frame-1000004992 * {
+  box-sizing: border-box;
+}
+
+.frame-1000004992 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 100%;
+  max-width: 580px;
+}
+
+.frame-1000004989 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.mug-paja-de-trigo {
+  color: var(--neutral-100);
+  font-family: "HandoTrial-Bold", sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+.frame-1000004513 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.etiqueta {
+  border-radius: 999px;
+  border: 1px solid var(--brand-violet-950);
+  padding: 6px 16px;
+  display: flex;
+  align-items: center;
+}
+
+.frame-1000004498 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.brand-icon {
+  color: var(--brand-violet-950);
+  font-size: 14px;
+}
+
+.pedido-m-nimo-15 {
+  color: var(--brand-violet-950);
+  font-family: "PlusJakartaSans-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.mug-con-manija-elaborado-en-paja-de-trigo-ligero-reutilizable-e-ideal-para-bebidas-calientes-o-fr-as-temperatura-recomendada-60-c-capacidad-350-ml-12-oz {
+  color: var(--neutral-90);
+  font-family: "PlusJakartaSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  align-self: stretch;
+}
+
+/* Rediseño fluido de la Tabla de Escalas (group-186) de Figma */
+.group-186-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  border-top: 1px solid var(--neutral-20);
+  border-bottom: 1px solid var(--neutral-20);
+  padding: 12px 0;
+  row-gap: 12px;
+}
+
+.scale-header {
+  color: var(--neutral-100);
+  font-family: "PlusJakartaSans-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--neutral-20);
+}
+
+.scale-cell {
+  color: var(--neutral-90);
+  font-family: "PlusJakartaSans-Regular", sans-serif;
+  font-size: 16px;
+  padding: 4px 0;
+}
+
+.frame-1000004991 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.select-color {
+  color: var(--neutral-100);
+  font-family: "PlusJakartaSans-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.selecci-n-colores {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.rectangle-color-item {
+  border-radius: 100px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.rectangle-color-item:hover, .rectangle-color-item.active-variant {
+  transform: scale(1.15);
+  border-color: var(--brand-violet-950);
+}
+
+.size-box-item {
+  padding: 6px 16px;
+  border: 1px solid var(--neutral-20);
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "PlusJakartaSans-Bold", sans-serif;
+  font-size: 14px;
+}
+
+.size-box-item.active-variant {
+  border-color: var(--brand-blue-500);
+  background-color: rgba(78, 86, 212, 0.05);
+}
+
+._8-914-iva-incluido-8-914-valor-por-unidad-span {
+  font-family: "HandoTrial-Bold", sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+  color: var(--neutral-100);
+}
+
+._8-914-iva-incluido-8-914-valor-por-unidad-span3 {
+  font-family: "PlusJakartaSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--neutral-90);
+  display: block;
+}
+
+.frame-1000004990 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.frame-1000004512 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+
+.cantidad2 {
+  color: var(--neutral-90);
+  font-family: "PlusJakartaSans-Regular", sans-serif;
+  font-size: 16px;
+}
+
+.frame-1000004506 {
+  border-radius: 8px;
+  border: 1px solid var(--neutral-20);
+  padding: 4px 12px;
+  width: 90px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+._1 {
+  color: var(--neutral-100);
+  font-family: "PlusJakartaSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  width: 100%;
+  outline: none;
+}
+
+.buttons-primary-text-icon {
+  background: var(--brand-blue-500);
+  border-radius: 999px;
+  padding: 12px 24px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.buttons-primary-text-icon:hover {
+  background: var(--brand-blue-600);
+}
+
+.buttons-outline-text-icon {
+  background: transparent;
+  border: 2px solid var(--brand-blue-500);
+  border-radius: 999px;
+  padding: 12px 24px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  color: var(--background-lavanda-nube);
+  font-family: "PlusJakartaSans-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button-outline {
+  color: var(--brand-blue-500);
+  font-family: "PlusJakartaSans-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   TOKENS EXTRAÍDOS EXACTAMENTE DEL CSS DE FIGMA
+   ========================================================================== */
+:root {
+    --neutral-100: #0e0d35;
+    --neutral-20: #cfd1d3;
+    --font-family-h3: "HandoTrial-Bold", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-family-subtitulo: "PlusJakartaSans-SemiBold", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.faq-section-wrapper {
+    width: 100%;
+}
+
+/* Título estilo Figma: 36px / 46px line-height / Bold */
+.preguntas-frecuentes-title {
+    color: var(--neutral-100);
+    font-family: var(--font-family-h3);
+    font-size: 2.25rem; /* 36px */
+    line-height: 1.27;   /* 46px */
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Contenedor de ítem acordeón y línea divisoria (line-19) */
+.accordion-figma .faq-item-container {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--neutral-20); /* Reemplaza .line-19 */
+    border-radius: 0 !important;
+    margin-bottom: 1.5rem; /* Separación gap de 24px */
+}
+
+.accordion-figma .faq-item-container:last-child {
+    margin-bottom: 0;
+}
+
+/* Botón disparador del acordeón */
+.accordion-figma .accordion-button {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    padding: 0 0 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+/* Quitar la flecha nativa por defecto de Bootstrap */
+.accordion-figma .accordion-button::after {
+    display: none !important;
+}
+
+/* Estilo del texto de la pregunta: 20px / 30px line-height / SemiBold */
+.faq-question-text {
+    color: var(--neutral-100);
+    font-family: var(--font-family-subtitulo);
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.5;    /* 30px */
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+}
+
+/* ==========================================================================
+   ÍCONOS ENCERRADOS FIGMA (24px x 24px) - FONT AWESOME 6.4.2
+   ========================================================================== */
+.faq-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.faq-icon-box i {
+    font-size: 1.5rem; /* 24px exacta de Figma */
+    color: var(--neutral-100);
+    transition: opacity 0.2s ease-in-out;
+}
+
+/* Estado 1: CERRADO (Muestra + encerrado en un cuadrado) */
+.accordion-button.collapsed .faq-icon-plus {
+    display: inline-block !important;
+}
+.accordion-button.collapsed .faq-icon-minus {
+    display: none !important;
+}
+
+/* Estado 2: DESPLEGADO / ABIERTO (Muestra - encerrado en un cuadrado) */
+.accordion-button:not(.collapsed) .faq-icon-plus {
+    display: none !important;
+}
+.accordion-button:not(.collapsed) .faq-icon-minus {
+    display: inline-block !important;
+}
+
+/* Texto de la respuesta dentro del acordeón */
+.faq-answer-text {
+    color: var(--neutral-100);
+    font-family: var(--font-family-subtitulo);
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0 0 1.5rem 0;
+    opacity: 0.85;
+}
+
+:root {
+  --radio-32: 32px;
+  --neutral-20: #cfd1d3;
+  --neutral-90: #39404f;
+  --neutral-100: #0e0d35;
+  --primary-brand: #0e0d35;
+}
+
+/* Layout General */
+.frame-1000004993 {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.frame-1000004988 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Slider Principal */
+._1771454440-y-6-j-k-hb-m-1 {
+  border-radius: var(--radio-32);
+  width: 100%;
+  height: auto;
+  max-height: 566px;
+  object-fit: cover;
+  aspect-ratio: 650 / 566;
+  display: block;
+}
+
+/* Slider de Miniaturas (Splide Override) */
+#thumbnail-slider {
+  padding: 5px 0;
+}
+
+#thumbnail-slider .splide__slide {
+  opacity: 0.6;
+  transition: opacity 0.3s ease, border-color 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#thumbnail-slider .splide__slide.is-active {
+  opacity: 1;
+  border: 2px solid var(--primary-brand);
+}
+
+.rectangle-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Ocultar scrollbars nativas sobrantes */
+#thumbnail-slider .splide__track {
+  overflow: hidden;
+}
+
+/* Descripción Figma */
+.product-description-figma {
+  color: var(--neutral-90);
+  font-size: 16px;
+  line-height: 26px;
+}
 /** LOGO & HEADER BASE **/
 .logo {
     max-width: 100%;
